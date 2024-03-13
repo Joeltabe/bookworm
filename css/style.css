@@ -1,0 +1,172 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-image: url(../images/b14.png);
+ }
+ header{
+    background-color: black;
+ }
+ body{
+   background-image: url(../images/b14.png);
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+ }
+ .nav-link{
+    display: flex; 
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    color: white;
+    
+ }
+ .nav-link a{
+    text-decoration: none;  
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+ }
+ .nav-links{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+ }
+ .search{
+   background-color: azure;
+   padding: 12px;
+   border-radius: 20px;
+   width: 300px;
+ }
+ .search input{
+   border: none;
+   background-color: transparent;
+   outline: none;
+ }
+.hero{
+   background-image: url("../images/read.jpg");
+   width: 100%;
+   height: 100vh;
+   text-align: center;
+}
+.hero-text{
+   font-weight: 800;
+   font-size: large;
+   color: white;
+   transform: translate(500px, -50px);
+}
+.books{
+   display: flex;
+   padding: 0 90px;
+   overflow-x: scroll;
+   scroll-behavior: smooth;
+   z-index: 12;
+   position: relative;
+}
+.card{
+   border: 1px solid black;
+   border-radius: 12px;
+   width: 18rem;
+   padding: 8px;
+   margin: 27px;
+   height: 100%;
+}
+.card-header{
+   width: 100%;
+   height: 100%;
+}
+.card-header img{
+   width: 100%;
+   height: fit-content;
+}
+
+.nav-links2{
+   display: flex; 
+   text-decoration: none;
+   list-style: none;
+   margin: 30px;
+   color: white;
+   
+}
+.nav-links2 a{
+   text-decoration: none;
+}
+.operate{
+   display: flex;
+   justify-content: space-between;
+}
+.nav-links3{
+   display: flex; 
+   text-decoration: none;
+   list-style: none;
+   margin: 30px;
+}
+.btn{
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   padding: 12px;
+   border-radius: 12px;
+   display: block;
+   text-align: center;
+}
+.card-btn{
+   width: 100%;
+   height: 100%;
+}
+footer{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   padding: 90px;
+}
+.left{
+   color: white;
+}
+.right{
+   color: white;
+}
+.btn2{
+   background-color: grey;
+   color: black;
+   text-decoration: none;
+   padding: 12px;
+   border-radius: 12px;
+   display: block;
+   text-align: center;
+   width: 300px;
+   margin-top: 20px;
+}
+.btn2:hover{
+   background-color: white;
+}
+.letter input{
+   width: 400px;
+   padding: 16px;
+   border-radius: 12px;
+}
+.dropdown{
+   display: none;
+}
+@media screen and (max-width: 560px) {
+
+   footer{
+      display: block;
+   }
+   .books{
+      display: block;
+   }
+   .nav-links3{
+      display: none;
+   }
+   .search{
+      display: none;
+   }
+   .dropdown{
+      display: contents;
+   }
+}
